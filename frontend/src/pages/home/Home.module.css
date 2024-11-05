@@ -1,0 +1,68 @@
+.home {
+  display: flex;
+  height: calc(110vh - 70px);
+  padding-top: 1rem;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+}
+
+.leftSideBar {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  justify-content: center;
+}
+.aboutPageDisplay {
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  overflow: hidden;
+}
+.rightSideBar {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  overflow: hidden;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 2;
+  justify-content: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.center::-webkit-scrollbar {
+  display: none; /* WebKit-based browsers (Chrome, Safari) */
+}
+/* Target screens smaller than 768px */
+@media (max-width: 768px) {
+  .home {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+  }
+  .leftSideBar {
+    display: none;
+  }
+  .rightSideBar {
+    display: none;
+  }
+  .center {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Target screens larger than 768px */
+@media (min-width: 769px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

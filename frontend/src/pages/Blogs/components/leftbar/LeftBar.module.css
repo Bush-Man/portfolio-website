@@ -1,0 +1,97 @@
+.leftBar {
+  display: flex;
+  gap: 10px;
+
+  padding-right: 10px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+  flex: 1;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  overflow: hidden;
+}
+.smallCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.smallCard div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px;
+}
+.smallCard h2 {
+  color: black;
+  font-size: 16px;
+  text-overflow: ellipsis;
+}
+.smallCard p {
+  color: black;
+  font-size: 15px;
+  line-height: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  object-fit: cover;
+  width: 100%;
+}
+
+.bigCard {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.bigCard h2 {
+  color: black;
+  font-size: 16px;
+  text-overflow: ellipsis;
+}
+.bigCard p {
+  color: black;
+  font-size: 15px;
+  line-height: 17px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  object-fit: cover;
+  width: 100%;
+}
+.bigCard div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .smallCard p {
+    display: none;
+    background-color: red;
+  }
+  .smallCard div {
+    padding: 0px;
+  }
+  .smallCard h2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    padding: 0;
+  }
+  .bigCard p{
+    font-size: 13px;
+  }
+}

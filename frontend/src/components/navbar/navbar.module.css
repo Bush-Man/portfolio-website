@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  z-index: 999;
+  background-color: var(--navBarBackGroundColor);
+  padding: 0rem 1rem;
+}
+.navbar img {
+  object-fit: cover;
+  cursor: pointer;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex: 1;
+  text-decoration: inherit;
+}
+.left h3 {
+  font-size: inherit;
+  color: white;
+}
+.center {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.ctaIcons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.status {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.statusIcon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(6, 206, 6);
+}
+
+.right {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding-left: 1rem;
+}
+.viewCv {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.profile img {
+  width: 50px;
+  height: 50 px;
+  border-radius: 50%;
+}

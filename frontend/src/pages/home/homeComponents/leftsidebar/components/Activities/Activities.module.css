@@ -1,0 +1,18 @@
+.activities{
+    padding-left: 10px;
+}
+.activities ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.activities ul li {
+  display: flex;
+  align-items: center;
+
+  
+}
+.activities ul li a{
+    display: flex;
+    align-items: center;
+}

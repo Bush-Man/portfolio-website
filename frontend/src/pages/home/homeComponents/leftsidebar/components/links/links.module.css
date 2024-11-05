@@ -1,0 +1,16 @@
+.links {
+  padding-left: 10px;
+}
+.links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.links ul li {
+  display: flex;
+  align-items: center;
+}
+.links ul li a {
+  display: flex;
+  align-items: center;
+}

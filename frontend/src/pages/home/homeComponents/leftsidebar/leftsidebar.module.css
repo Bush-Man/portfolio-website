@@ -1,0 +1,12 @@
+.leftSideBar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  width: 80%;
+}
+.container {
+  background-color: brown;
+  border-radius: var(--borderRadius);
+  padding: 15px 0px;
+}

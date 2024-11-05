@@ -1,0 +1,15 @@
+{
+  "python.analysis.autoImportCompletions": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "notebook.formatOnCellExecution": true,
+  "notebook.formatOnSave.enabled": true,
+  "eslint.format.enable": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.debug.settings.onBuildFailureProceed": true,
+  "editor.fontSize": 10
+}

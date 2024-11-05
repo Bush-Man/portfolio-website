@@ -1,0 +1,78 @@
+/* LoginPage.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("https://source.unsplash.com/1600x900/?nature") no-repeat
+    center center/cover;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.1); /* Slightly transparent */
+  backdrop-filter: blur(10px); /* Creates the frosted glass effect */
+  border-radius: 8px;
+  padding: 2rem;
+  width: 320px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Softer shadow for glassmorphism */
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border to add to glass effect */
+}
+
+.login-logo {
+  font-size: 2rem;
+  color: #fff; /* White text to contrast with glass effect */
+  margin-bottom: 1rem;
+}
+
+.input-container {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  font-size: 0.9rem;
+  color: #eee; /* Light color for contrast on glass */
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.3); /* Slightly transparent button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: rgba(255, 255, 255, 0.5); /* Darker shade on hover */
+}

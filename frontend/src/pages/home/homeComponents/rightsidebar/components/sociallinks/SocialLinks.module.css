@@ -1,0 +1,9 @@
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: var(--cardColor);
+  padding: 20px;
+  align-content: flex-start;
+  border-radius: var(--borderRadius);
+}

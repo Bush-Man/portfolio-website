@@ -1,0 +1,16 @@
+.centerDiv {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  gap: 1rem;
+  align-items: center;
+}
+/* Target screens smaller than 768px */
+@media (max-width: 768px) {
+    .container {
+    .centerDiv{
+      width: 100%;
+      
+    }
+    }
+}

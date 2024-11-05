@@ -1,0 +1,23 @@
+:root {
+  --borderRadius: 10px;
+  --lineColor: red;
+  --textColor: rgb(230, 230, 230);
+  --greenColor: rgb(3, 190, 3);
+  --brownColor: brown;
+  --lightBrown: rgb(194, 75, 75);
+  --postBackgroundColor: rgb(39, 38, 38);
+  --cardColor: rgb(39, 38, 38);
+  --lightTextColor: rgb(194, 193, 193);
+  --mainBackgroundColor: black;
+  --maintextColor: black;
+  --navBarBackGroundColor: rgb(65, 64, 64);
+}
+.line {
+  width: 95%;
+  height: 2px;
+  background-color: var(--lineColor);
+  margin: 0px 3px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}

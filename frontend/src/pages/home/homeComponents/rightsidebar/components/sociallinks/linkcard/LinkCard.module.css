@@ -1,0 +1,36 @@
+.linkCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.right img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.right h5 {
+  font-size: 10px;
+  color: var(--lightTextColor);
+  font-weight: 300;
+}
+.names {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.linkBtn {
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: 1px solid var(--lightBrown);
+  color: var(--lightBrown);
+  background: transparent;
+}

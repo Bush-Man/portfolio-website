@@ -1,0 +1,22 @@
+.about {
+  display: flex;
+  gap: 10px;
+  height: calc(100vh - 70px);
+
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mainBackgroundColor);
+  position: relative;
+}
+.right {
+  display: flex;
+
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.right p {
+  font-size: 17px;
+  text-transform: initial;
+  font-weight: var(--textFontWeight);
+}

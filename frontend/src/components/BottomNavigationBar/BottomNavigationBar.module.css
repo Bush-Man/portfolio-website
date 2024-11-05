@@ -1,0 +1,29 @@
+.bottomNavigationBar {
+  display: none;
+  gap: 1rem;
+  width: 100%;
+  z-index: 33;
+  position: sticky;
+  bottom: 0;
+  background-color: red;
+}
+.bottomNavigationBar ul {
+  display: flex;
+  background-color: var(--navBarBackGroundColor);
+  padding:  1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  height: 50px;
+}
+.bottomNavigationBar ul a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .bottomNavigationBar {
+    display: block;
+  }
+}

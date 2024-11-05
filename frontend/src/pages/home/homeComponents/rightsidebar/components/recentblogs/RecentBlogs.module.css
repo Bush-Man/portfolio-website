@@ -1,0 +1,9 @@
+.recentBlogs {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: var(--cardColor);
+  border-radius: var(--borderRadius);
+  padding: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,26 @@
+.blogCard {
+  display: flex;
+  gap: 10px;
+  height: 70px;
+  overflow: hidden;
+  align-items: center;
+}
+.blogCard img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.blogInfo p {
+  display: -webkit-box; /* Required for multi-line ellipsis */
+  -Webkit-box-orient: vertical; /* Required for multi-line ellipsis */
+  -Webkit-line-clamp: 3; /* Number of lines to show */
+  overflow: hidden; /* Hide the overflowing content */
+  text-overflow: ellipsis; /* Add ellipsis */
+  line-height: 1em; /* Adjust based on your font size */
+  max-height: 4.5em; /* line-height * number of lines */
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 800;
+
+}
